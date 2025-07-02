@@ -1,0 +1,77 @@
+/********* Header ********/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    align-items: end;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+/****************** Hamburger ***************/
+.hamburger {
+    border: none;
+    background: none;
+    color: green;
+    cursor: pointer;
+    font-family: Verdana;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+header span {
+    font-size: 1.2rem;
+    color: green;
+}
+
+/******************** Main Navigation ********************/
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: green;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.navigation li.current {
+    background-color: #eee;
+}
+
+.navigation a:hover {
+    background-color: pink;
+}
+
+
+
+
+h1 {
+    margin-left: 10px;
+}
