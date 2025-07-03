@@ -1,10 +1,17 @@
+:root {
+    --primary-color: #36454F;
+    --secondary-color: #778899;
+}
+/************ Body **************/
+body {
+    color: var(--primary-color);
+}
 /********* Header ********/
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
     align-items: end;
     padding: 5px 0 5px 10px;
-    border-bottom: solid 1px #ddd;
     column-gap: 8px;
 }
 
@@ -19,7 +26,7 @@ header img {
 .hamburger {
     border: none;
     background: none;
-    color: green;
+    color: var(--secondary-color);
     cursor: pointer;
     font-family: Verdana;
 }
@@ -35,7 +42,7 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: green;
+    color: var(--secondary-color);
 }
 
 /******************** Main Navigation ********************/
@@ -45,6 +52,7 @@ header span {
 
 .navigation.show {
     display: block;
+    background-color: var(--primary-color);
 }
 
 .navigation ul {
@@ -56,25 +64,66 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: green;
+    color: #ddd;
     text-decoration: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid black;
 }
 
 .navigation li.current {
-    background-color: #eee;
+    background-color: var(--secondary-color);
 }
 
 .navigation a:hover {
-    background-color: pink;
+    background-color: #ccc;
+    color:var(--primary-color);
+    font-weight: 600;
 }
 
 
 
+/********************* Main ************************/
 
-h1 {
-    margin-left: 10px;
+.student-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    border: 1px solid red;
 }
+
+section {
+    border: 1px solid red;
+}
+
+section p {
+    margin: 0;
+}
+
+.student-photo .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-photo img {
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+    border: thin solid var(--primary-color);
+}
+
+section h2 {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #eee;
+    margin: 0;
+}
+
+.box {
+    background-color: #ccc;
+    margin-top: .2rem;
+}
+
 
 /********************* footer **********************/
 
