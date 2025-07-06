@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 <body>
     <header>
         <img src="images/logo.svg" alt="site logo" width="1" height="1">
-        <span>Site name</span>
+        <span>Chamber of Commerce</span>
         <button id="nav-button" class="hamburger" aria-label="navigation"></button>
     </header>
     <nav id="nav-bar" class="navigation">
@@ -45,8 +46,29 @@
                     <img src="images/profile.jpg" alt="my profile photo">
                 </div>
             </section>
-            <section class="courses">
+            <section class="container">
                 <h2>Web Certificate Courses</h2>
+                <div class="course-filter">
+                    <button id="allCoursesButton" class="filter-button active">
+                        All Courses
+                    </button>
+                    <button id="wddCoursesButton" class="filter-button">
+                        WDD Courses
+                    </button>
+                    <button id="cseCoursesButton" class="filter-button">
+                        CSE Courses
+                    </button>
+                </div>
+
+                <div id="coursesContainer" class="courses">
+
+                </div>
+
+                <div class="total-credits-box">
+                    <p>The total credits for course listed above is: <span id="total-credits"></span></p>
+                </div>
+
+                
             </section>
         </div>
         
@@ -57,8 +79,12 @@
             <a href="https://www.linkedin.com/in/mbavictorkalu/" target="_blank"><img src="images/linkedin.svg" alt="Linkedin" width="16" height="16"></a>
             <a href="https://www.facebook.com/VicktorMba" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="16" height="16"></a>
         </div>
-        <p>&copy; <span id="currentyear"></span> &#127796; Chamber of Commerce | Victor Mba &#127796; Rivers, Nigeria</p>
-        <p class="modified-last">Last Modification: <span id="lastmodified"></span></p>
+
+        <div class="address">
+            <p>&copy; <span id="currentyear"></span> &#127796; Chamber of Commerce | Victor Mba &#127796; Rivers, Nigeria</p>
+            <p class="modified-last">Last Modification: <span id="lastmodified"></span></p>
+        </div>
+        
     </footer>
 </body>
 </html>
