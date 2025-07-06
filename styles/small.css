@@ -47,6 +47,7 @@ header img {
 header span {
     font-size: 1.2rem;
     color: var(--secondary-color);
+    font-family: "Inter", sans-serif;
 }
 
 /******************** Main Navigation ********************/
@@ -203,6 +204,7 @@ button.active {
 footer {
     padding: 1rem 0;
     text-align: center;
+    font-family: "Inter", sans-serif;
 }
 
 .social {
@@ -229,6 +231,10 @@ footer {
 
 .social a:hover {
     background-color: #ddd;
+}
+
+.modified-last {
+    font-family: "Merriweather", Verdana;
 }
 
 footer .address {
