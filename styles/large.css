@@ -3,7 +3,7 @@
     --secondary-color: #778899;
     }
     
-@media only screen and (min-width: 15rem) {
+@media only screen and (min-width: 25rem) {
     
     header, main, nav, footer {
         max-width: 900px;
