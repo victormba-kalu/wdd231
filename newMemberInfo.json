@@ -1,0 +1,33 @@
+{
+    "family_name": "",
+    "move_in_date": "",
+    "number_of_people":4,
+    "visited_by_bishopric": true,
+    "family_members":[
+        {
+            "name":"",
+            "gender":"",
+            "birth-ate":""
+        },
+        {
+            
+            "name":"",
+            "gender":"",
+            "birth-ate":""
+        },
+
+        {
+            
+            "name":"",
+            "gender":"",
+            "birth-ate":""
+        },
+        {
+            
+            "name":"",
+            "gender":"",
+            "birth-ate":""
+        }
+    ]
+    
+}
