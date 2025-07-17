@@ -91,28 +91,17 @@ const wddCoursesButton = document.querySelector('#wddCoursesButton');
 const cseCoursesButton = document.querySelector('#cseCoursesButton');
 const filterButtons = document.querySelectorAll('.filter-button');
 
-function displayCourses(coursesToDisplay) {
-    //empty the Courses container to display nothing initially
-    coursesContainer.innerHTML = '';  
+// First, we add an eventlistener to the click of a button
+// Each button is a course like WDD or CSE 
+// Upon the click of the button, the handlefilter function gives us the course specified by the parameter
+allCoursesButton.addEventListener('click', () => handleFilterClick('all'));
+wddCoursesButton.addEventListener('click', () => handleFilterClick('WDD'));
+cseCoursesButton.addEventListener('click', () => handleFilterClick('CSE'));
 
-    let currentTotalCredits = 0;
-
-    coursesToDisplay.forEach(course => {
-        const card = document.createElement('div');
-        card.className = `course-card ${course.completed ? 'completed' : 'uncompleted'}`;
-
-        const titleElement = document.createElement('h3');
-        titleElement.textContent = `${course.subject} ${course.number}`;
-        card.appendChild(titleElement);
-
-        coursesContainer.appendChild(card);
-
-        currentTotalCredits += course.credits;
-    });
-
-    totalCreditsElement.textContent = currentTotalCredits;
-}
-
+// The duty of the handlefilter function is to return a specific array of courses
+// And then display those courses using the displayCourses function
+// Also, when it's clicked, we want to style it and when not, we want to remove the styling
+// This is what the "active" does.
 function handleFilterClick(filterType) {
     filterButtons.forEach(button => button.classList.remove('active'));  
     
@@ -131,10 +120,37 @@ function handleFilterClick(filterType) {
     displayCourses(filteredCourses);
 }
 
+// The displayCourses filter actually accepts the filtered courses as the arguement
+// The courses displayed are only those specified by the parameter
 
-allCoursesButton.addEventListener('click', () => handleFilterClick('all'));
-wddCoursesButton.addEventListener('click', () => handleFilterClick('WDD'));
-cseCoursesButton.addEventListener('click', () => handleFilterClick('CSE'));
+function displayCourses(coursesToDisplay) {
+    //empty the Courses container to display nothing initially
+    coursesContainer.innerHTML = '';  
+
+    let currentTotalCredits = 0;
+
+    // for each course in the displayCourse array, we wanna do some stuff
+    coursesToDisplay.forEach(course => {
+        const card = document.createElement('div');
+
+        // The card has two class names, the second name is dependent on if the class has been completed or not
+        // The ternary operator serves us well in this regard
+        card.className = `course-card ${course.completed ? 'completed' : 'uncompleted'}`;
+
+        const titleElement = document.createElement('h3');
+        titleElement.textContent = `${course.subject} ${course.number}`;
+        card.appendChild(titleElement);
+
+        coursesContainer.appendChild(card);
+
+        // For each iteration, we add the coures credits
+        currentTotalCredits += course.credits;
+    });
+
+    totalCreditsElement.textContent = currentTotalCredits;
+}
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     handleFilterClick('all');
