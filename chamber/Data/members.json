@@ -1,0 +1,90 @@
+[
+  {
+    "id": "biz001",
+    "name": "Asia Town",
+    "address": "Forces Avenue, Old GRA, Port Harcourt 500241 Nigeria",
+    "phone": "+234 810 662 2000",
+    "website": "https://asia-town.upmenusite.com",
+    "image": "https://cs.cdn-upm.com/themes/a8510f60-c41c-11ee-8fee-525400080621/assets-2/favicon.png?v=767",
+    "membershipLevel": 3,
+    "category": "Restaurant",
+    "otherInfo": "a high- class modern restaurant and event center, is Port Harcourt's most exclusive venue featuring exotic textures, colors and details of the Orient."
+  },
+  {
+    "id": "biz002",
+    "name": "Pivva Tech",
+    "address": "2nd Floor, Deborah Lawson House, Abacha Road, GRA, Port Harcourt",
+    "phone": "(+234) 7063 672 497",
+    "website": "https://pivvatech.com",
+    "image": "https://pivvatech.com/wp-content/uploads/elementor/thumbs/pivva-logo-1-qndzk9pg7mkcqkjmhiyiq7lx1qk1b7p7v817f31q3s.png",
+    "membershipLevel": 3,
+    "category": "Graphics and Web Design",
+    "otherInfo": "Crafting intuitive user experiences for mobile and web applications."
+  },
+  {
+    "id": "biz003",
+    "name": "DeezeyMedia",
+    "address": "303 Design Street, Port-Harcourt",
+    "phone": "+2347064810089",
+    "website": "https://www.deezeymedia.com",
+    "image": "https://www.deezeymedia.com/static/media/Deezey-media-logo.f3d59b91804b7d8e1620.png",
+    "membershipLevel": 2,
+    "category": "UI/UX Design",
+    "otherInfo": "Award-winning studio for branding, logos, and visual identity."
+  },
+  {
+    "id": "biz004",
+    "name": "Kilimanjaro",
+    "address": "23 Nzimiro street, Old GRA. Port Harcourt",
+    "phone": "0700 5454 3663",
+    "website": "https://kilimanjaro-restaurants.com",
+    "image": "https://kilimanjaro-restaurants.com/images/logo.svg",
+    "membershipLevel": 1,
+    "category": "Restaurant",
+    "otherInfo": "Kilimanjaro provides a seamless food online delivery option, allowing customers to enjoy their favorite meals, pastries, sandwiches, and beverages from the comfort of their homes."
+  },
+  {
+    "id": "biz005",
+    "name": "Zephans and Co",
+    "address": "505 Health Plaza, Port-Harcourt",
+    "phone": "+2348060506980",
+    "website": "https://zephansandco.com",
+    "image": "https://zephansandco.com/wp-content/uploads/2023/02/Zephannsn-logo-2.png",
+    "membershipLevel": 2,
+    "category": "Clothing",
+    "otherInfo": "We are a ready to wear brand for fashion forward women around the world. All pieces are made with ❤️ in Africa. Straight out of Lagos, Nigeria.."
+  },
+  {
+    "id": "biz006",
+    "name": "Cakes and Cream",
+    "address": "606 Property Drive, Port-Harcourt",
+    "phone": "08127032242",
+    "website": "https://cakesandcream.ng",
+    "image": "https://cakesandcream.ng/wp-content/uploads/2023/07/Cakes_and_Cream_logo_2.png",
+    "membershipLevel": 1,
+    "category": "Pastries",
+    "otherInfo": "Cakes and Cream is Nigerias foremost bakery and confectionery brand known for its delectable cakes and other sweet treats."
+  },
+  {
+    "id": "biz007",
+    "name": "African Food Network",
+    "address": "707 Business Park, Port-Harcourt",
+    "phone": "+2349074956503",
+    "website": "https://afrifoodnetwork.com",
+    "image": "https://afrifoodnetwork.com/wp-content/uploads/2022/08/Retina-web-logo.png",
+    "membershipLevel": 3,
+    "category": "Food",
+    "otherInfo": "We're the largest African food community online, dedicated to promoting the diverse culinary traditions of Africa to the world."
+  },
+  {
+    "id": "biz008",
+    "name": "Medtech Africa",
+    "address": "808 Innovation Alley, Port-Harcourt",
+    "phone": "(+234) 81-6360-2212",
+    "website": "https://medtech.africa",
+    "image": "https://www.medtecheurope.org/wp-content/themes/ak-medtecheurope-2018/assets/img/logo-medtech-europe.png",
+    "membershipLevel": 2,
+    "category": "Medtech",
+    "otherInfo": "MedTech Africa is a leading provider of comprehensive healthcare technology solutions, dedicated to supporting hospitals and healthcare facilities across Nigeria and Africa. ."
+  }
+]
