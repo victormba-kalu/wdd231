@@ -1,0 +1,63 @@
+:root {
+    --primary-color:#2C3E50 ;
+    --secondary-color: #3498DB ;
+    --background-color: #F0F8FF ;
+    --text-color: #36454F;
+}
+
+/*************** Body *****************/
+body {
+    background-color: var(--background-color);
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+}
+
+/*************** header****************/
+header {
+    display: grid;
+    grid-template-columns: 100px auto;
+    align-items: end;
+    padding: 5px 0 5px 100px;
+    column-gap: 8px;
+}
+
+header span {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: var(--background-color);
+}
+/*************** Navigation ***********/
+.navigation {
+
+}
+/*************** Main *****************/
+h1 {
+    text-align: center;
+}
+.menu {
+    text-align: center;
+}
+
+.business-directory {
+    max-width: 90%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5rem;
+    
+}
+
+section {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
