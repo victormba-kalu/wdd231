@@ -1,0 +1,39 @@
+@media only screen and (min-width: 25rem) {
+    
+
+    header {
+        grid-template-columns: 100px auto;
+    img {
+        padding-left: 5.5rem;
+    }
+
+    span {
+        padding-right: 2rem;
+        padding-bottom: 1.3rem;
+    }
+    }
+
+    
+
+
+
+    .hamburger {
+        display: none;
+        border: none;
+    }
+
+    .navigation {
+        display: block;
+        margin-left: 6rem;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .navigation a {
+        border: none;
+    }
+}

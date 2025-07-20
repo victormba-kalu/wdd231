@@ -15,15 +15,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/date.js" defer></script>
 </head>
 
 <body>
     <header>
         <img src="images/business-logo.png" alt="site logo" width="1" height="1">
         <span>PortHarcourt City Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
     </header>
-    <nav class="navigation">
+    <nav id="nav-bar" class="navigation">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Discover</a></li>
@@ -34,13 +39,24 @@
     <main>
         <h1>Business Directory</h1>
         <div class="menu">
-            <img src="images/grid.svg" alt="grid-logo" width="20" height="20">
-            <img src="images/list.svg" alt="list-logo" width="20" height="20">
+            <button id="grid" class="menu-button" aria-label="switches to grid view">
+                <img src="images/grid.svg" alt="grid-logo" width="30" height="auto">
+            </button>
+            <button id="list" class="menu-button" aria-label="switches to list view">
+                <img src="images/list.svg" alt="list-logo" width="30" height="auto">
+            </button>
         </div>
 
-        <div id="directory" class="business-directory"></div>
+        <div id="directory" class="business-directory grid"></div>
 
     </main>
     
 </body>
+
+<footer>
+    <div class="address">
+            <p>&copy; <span id="currentyear"></span> &#127796; Chamber of Commerce | Victor Mba &#127796; Rivers, Nigeria</p>
+            <p class="modified-last">Last Modification: <span id="lastmodified"></span></p>
+    </div>
+</footer>
 </html>
