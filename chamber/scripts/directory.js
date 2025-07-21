@@ -22,7 +22,7 @@ const displayBusiness = (businesses) => {
         logo.setAttribute('alt', `This business belongs to ${business.name}`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '100');
-        logo.setAttribute('height', '100');
+        logo.setAttribute('height', 'auto');
 
         website.setAttribute('href', business.website);
         website.setAttribute('target', '_blank');
