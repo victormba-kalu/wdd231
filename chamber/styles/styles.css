@@ -91,33 +91,39 @@ header img {
 h1 {
     text-align: center;
 }
+
 .menu {
     text-align: center;
-    button {
+
+}
+
+.menu button {
         padding: .2rem .75rem;
         border-radius: 3px;
         background-color: white;
         border: 1.5px solid var(--secondary-color);
         transition: background-color 0.3s ease-in-out;
         cursor: pointer;
-    }
-
-    button:hover{
-        background-color: #ccc;
-    }
 }
+
+.menu button:hover {
+        background-color: #ccc;
+}
+
 
 .business-directory {
     max-width: 90%;
     margin: 1rem auto;    
 }
 
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     column-gap: .5rem;
+}
 
-    section {
+.grid section {
     background-color: var(--background-color);
     color: var(--text-color);
     padding-bottom: .5rem;
@@ -126,15 +132,18 @@ h1 {
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 12px rgb(0, 0, 0 , 0.4);
-    
-    h2 {
+}
+
+.grid h2 {
         margin: 0;
-    }
-    p {
+}
+
+.grid p {
         font-size: .75rem;
         margin: .3rem;
-    }
-    img {
+}
+
+.grid img {
         background-color: var(--primary-color);
         margin-top: .5rem;
         padding: 1rem;
@@ -142,32 +151,28 @@ h1 {
         border: 2px solid var(--secondary-color);
         border-radius: 2px;
 
-    }
 }
-}
+
 
 .list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
-    section {
+}
+.list section {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0;
         padding: .25rem;
-
-        img {
+}
+.list img {
         display: none;
-        }
+}
 
-        &:nth-child(even) {
+.list section:nth-child(even) {
         background-color: #ccc;
-        }
-    }
-
 }
 
 /*********** Footer ***************/
