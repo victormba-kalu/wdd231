@@ -31,6 +31,7 @@ const displayBusiness = (businesses) => {
         address.textContent = business.address;
         number.textContent = business.phone;
         website.textContent = business.website;
+        website.style.color = '#3498DB';
 
         card.appendChild(logo);
         card.appendChild(businessName);
