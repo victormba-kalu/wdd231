@@ -6,10 +6,10 @@
         align-items: center;
         flex-direction: column;
     }
-    
+
     header img {
         padding-top: 1rem;
-        width: 6rem;
+        width: 4rem;
     }
 
     header span {

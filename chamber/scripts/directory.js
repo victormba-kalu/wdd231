@@ -21,8 +21,9 @@ const displayBusiness = (businesses) => {
         logo.setAttribute('src', business.image);
         logo.setAttribute('alt', `This business belongs to ${business.name}`);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '100');
-        logo.setAttribute('height', 'auto');
+        logo.setAttribute('width', '100px');
+        logo.setAttribute('height', '100px');
+      
 
         website.setAttribute('href', business.website);
         website.setAttribute('target', '_blank');
@@ -31,7 +32,7 @@ const displayBusiness = (businesses) => {
         address.textContent = business.address;
         number.textContent = business.phone;
         website.textContent = business.website;
-        website.style.color = '#3498DB';
+        website.style.color = '#36454F';
 
         card.appendChild(logo);
         card.appendChild(businessName);

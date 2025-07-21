@@ -15,7 +15,7 @@ body {
 /*************** header****************/
 header {
     display: grid;
-    grid-template-columns: 80px auto 44px;
+    grid-template-columns: 60px auto 44px;
     align-items: end;
     padding: 5px 0 5px 10px;
     column-gap: 8px;
@@ -24,6 +24,7 @@ header {
 header span {
     font-size: 1.2rem;
     text-align: center;
+    padding-top: .5rem;
     
 }
 
@@ -78,7 +79,7 @@ header img {
 }
 
 .navigation li.current {
-    background-color: var(--secondary-color);
+    font-weight: bold;
 }
 
 .navigation a:hover {
@@ -90,8 +91,12 @@ header img {
 /*************** Main *****************/
 h1 {
     text-align: center;
+    font-size: 1.7rem;
 }
 
+#directory {
+    min-width: 300px;
+}
 .menu {
     text-align: center;
 
@@ -115,7 +120,6 @@ h1 {
     max-width: 90%;
     margin: 1rem auto;    
 }
-
 
 .grid {
     display: grid;
@@ -180,6 +184,6 @@ h1 {
 footer {
     text-align: center;
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: .2rem;
     color: #ccc;
 }
