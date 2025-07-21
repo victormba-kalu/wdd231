@@ -22,7 +22,7 @@ header {
 }
 
 header span {
-    font-size: 1.2rem;
+    font-size: .75rem;
     text-align: center;
     padding-top: .5rem;
     
@@ -184,6 +184,7 @@ h1 {
 footer {
     text-align: center;
     background-color: var(--primary-color);
-    padding: .2rem;
     color: #ccc;
+    font-size: .75rem;
+    padding: .1rem;
 }
