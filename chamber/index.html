@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory page for Port-Harcourt City Chamber of Commerce</title>
+    <meta name="author" content="Victor Mba">
+    <meta name="description" content="Are you a techie or business person new to PortHarcourt? start your day by scrolling through the various tech businesses in PortHarcourt">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="Explore the directory of the Chamber of commerce and learn about all of the businesses in PH city chamber of commerce">
+    <meta property="og:image" content="https://victormba-kalu.github.io/wdd231/chamber/images/business-logo.png">
+    <meta property="og:url" content="https://victormba-kalu.github.io/wdd231/chamber/directory.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/business-logo.png" alt="site logo" width="100" height="100">
+        <span>PortHarcourt City Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li class="current"><a href="directory.html">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Business Directory</h1>
+        <div class="menu">
+            <button id="grid" class="menu-button" aria-label="switches to grid view">
+                <img src="images/grid.svg" alt="grid-logo" width="30" height="30">
+            </button>
+            <button id="list" class="menu-button" aria-label="switches to list view">
+                <img src="images/list.svg" alt="list-logo" width="30" height="30">
+            </button>
+        </div>
+
+        <div id="directory" class="business-directory grid"></div>
+
+    </main>
+
+<footer>
+    <div class="address">
+        <p>&copy; <span id="currentyear"></span> &#127796; Chamber of Commerce | Victor Mba &#127796; Rivers, Nigeria</p>
+        <p class="modified-last">Last Modification: <span id="lastmodified"></span></p>
+    </div>
+</footer>
+    
+</body>
+
+
+</html>
