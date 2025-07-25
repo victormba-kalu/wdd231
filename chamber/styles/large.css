@@ -43,4 +43,30 @@
             padding: .25rem;
     }
 
+    .hero-card {
+        display: grid;  
+        grid-template-columns: 3fr 1fr;  
+        max-width: 90%;  
+        box-shadow: 0 0 12px rgb(0, 0, 0, 0.4);
+    }
+
+    .hero-card img {
+        border-radius: 5px;
+    }
+    .join-us {
+        border-radius: 500px;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin-left: 2rem;
+        line-height: 3rem;
+        font-style: italic;
+        font-weight: bold;
+        background-color: var(--secondary-color);
+    }
+
+    .join-us a {
+        border-radius: 30px;
+    }
+    
+
 }
