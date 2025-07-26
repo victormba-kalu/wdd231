@@ -121,13 +121,13 @@ h1 {
     margin: 1rem auto;    
 }
 
-.grid {
+.grid, .spotlight {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     column-gap: .5rem;
 }
 
-.grid section {
+.grid section, .spotlight section {
     background-color: var(--background-color);
     color: var(--text-color);
     padding-bottom: .5rem;
@@ -142,12 +142,12 @@ h1 {
         margin: 0;
 }
 
-.grid p {
+.grid p, .spotlight p {
         font-size: .75rem;
         margin: .3rem;
 }
 
-.grid img {
+.grid img, .spotlight img {
         background-color: var(--primary-color);
         margin-top: .5rem;
         padding: 1rem;
@@ -278,7 +278,9 @@ figure a {
     transition: all 1s ease-in-out;
 }
 
-
+.spotlight {
+    margin-bottom: 1rem;
+}
 
 /*********** Footer ***************/
 

@@ -68,5 +68,8 @@
         border-radius: 30px;
     }
     
-
+    .spotlight {
+        margin: 1rem 5rem;
+    }
+    
 }
