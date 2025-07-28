@@ -121,13 +121,14 @@ h1 {
     margin: 1rem auto;    
 }
 
-.grid, .spotlight {
+.grid, .spotlight, .weather {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     column-gap: .5rem;
+    
 }
 
-.grid section, .spotlight section {
+.grid section, .spotlight section, .weather section {
     background-color: var(--background-color);
     color: var(--text-color);
     padding-bottom: .5rem;
@@ -279,6 +280,10 @@ figure a {
 }
 
 .spotlight {
+    margin-bottom: 1rem;
+}
+
+.weather {
     margin-bottom: 1rem;
 }
 
