@@ -224,7 +224,7 @@ h1 {
     transition: all 1s ease-in-out; 
 }
 
-.join-us a:hover, figure a:hover {
+.join-us a:hover, .figure a:hover {
     background-color: var(--primary-color);
     color: #ccc;
 }
@@ -242,7 +242,7 @@ h1 {
 }
 
 /****************** Figure *******************/
-figure {
+.figure {
     border: thin var(--primary-color) solid;
     display: flex;
     flex-flow: column;
@@ -255,13 +255,13 @@ figure {
     margin-bottom: 1rem;
 }
 
-figure img {
+.figure img {
     max-width: 400px;
     height: 300px;
     padding: 3px;    
 }
   
-figcaption {
+.figcaption {
     background-color: #222;
     color: var(--background-color);
     font: italic smaller sans-serif;
@@ -270,7 +270,7 @@ figcaption {
     font-size: 1.2rem;
   }
 
-figure a {
+.figure a {
     text-decoration: none;
     text-align: center;
     box-shadow: 0 0 6px rgb(0, 0, 0, 0.8);
