@@ -132,6 +132,7 @@ h1 {
 .grid section, .spotlight section, .weather section {
     background-color: var(--background-color);
     color: var(--text-color);
+    text-align: center;
     padding-bottom: .5rem;
     display: flex;
     flex-direction: column;
