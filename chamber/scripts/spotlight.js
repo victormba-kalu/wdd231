@@ -58,7 +58,7 @@ const displaySpotlights = (members) => {
         website.style.color = '#36454F';
 
         level.textContent = levelText;
-        level.style.color = '#B8860B';
+        level.style.color = '#715104';
         level.style.fontWeight = 'bold';
         level.style.fontSize = '1rem';
 
