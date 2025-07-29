@@ -10,7 +10,7 @@ async function apiFetch() {
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
-      console.log(data); // testing only
+      //console.log(data); // testing only
       displayResults(data); // uncomment when ready
     } else {
         throw Error(await response.text());
@@ -22,13 +22,13 @@ async function apiFetch() {
 
 apiFetch();
 function displayResults(data) {
-    let forecastHTML = '';
+    //let forecastHTML = '';
     const dailyForecasts = data.daily.slice(0, 3);
 
-    if (dailyForecasts.length === 0) {
-      forecastOutputDiv.innerHTML = '<p>No forecasta data available.</p>';
-      return;
-    }
+    //if (dailyForecasts.length === 0) {
+      //forecastOutputDiv.innerHTML = '<p>No forecasta data available.</p>';
+      //return;
+    //}
 
   dailyForecasts.forEach(dayData => {
       const timestamp = dayData.dt;
@@ -72,7 +72,7 @@ function displayResults(data) {
 
   });
 
-    forecastOutputDiv.innerHTML = forecastHTML;
+    //forecastOutputDiv.innerHTML = forecastHTML;
   
 }
 

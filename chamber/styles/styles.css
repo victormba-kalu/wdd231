@@ -121,10 +121,11 @@ h1 {
     margin: 1rem auto;    
 }
 
-.grid, .spotlight, .weather {
+.grid, .spotlight, .weather, .current-events {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     column-gap: .5rem;
+    justify-content: center;
     
 }
 
@@ -164,6 +165,7 @@ h1 {
     flex-wrap: wrap;
     flex-direction: column;
 }
+
 .list section {
         display: flex;
         flex-direction: column;
@@ -177,7 +179,7 @@ h1 {
 }
 
 .list section:nth-child(even) {
-        background-color: #ccc;
+        background-color: #8d7474;
 }
 
 .hero-card {
@@ -188,27 +190,36 @@ h1 {
     margin: 1rem auto;
 }
 
+
 .hero-card img {
     width: 100%;
     height: auto;
+    
+}
+.join-us {
+    text-align: center;
 }
 
-.join-us {
-    font-size: 3rem;
+.join-us p {
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
     color: var(--primary-color);
     text-align: center;
-    padding: .75rem;
+    padding: .5rem;
     line-height: 2rem;
-    
 }
 
 .join-us a {
-    background-color: #ccc;
-    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: #fff;
+    box-shadow: 0 0 6px rgb(0, 0, 0, 0.8);
+    border: thin solid var(--secondary-color);
     text-decoration: none;
     border-radius: 6px;
     padding: .3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     transition: all 1s ease-in-out; 
 }
 
@@ -217,9 +228,6 @@ h1 {
     color: #ccc;
 }
 
-.join-us p {
-        color: var(--background-color);
-    }
 
 .border-events {
     text-align: center;
@@ -229,32 +237,26 @@ h1 {
 
 .border-events h2 {
     margin-bottom: 0;
+    font-size: 2rem;
 }
 
 /****************** Figure *******************/
-.current-events {
-    padding: 1rem;
-    max-width: 94%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;    
-}
-
 figure {
     border: thin var(--primary-color) solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 420px;
     margin: auto;
     overflow: hidden;
     justify-content: center;
     box-shadow: 0 0 12px rgb(0, 0, 0, 0.4);
     border-radius: 3px;
-  }
+}
+
 figure img {
-    width: 400px;
+    max-width: 400px;
     height: 300px;
+    padding: 3px;    
 }
   
 figcaption {
@@ -269,6 +271,7 @@ figcaption {
 figure a {
     text-decoration: none;
     text-align: center;
+    box-shadow: 0 0 6px rgb(0, 0, 0, 0.8);
     background-color: #ccc;
     margin: .5rem 0;
     padding: .2rem;
@@ -283,9 +286,24 @@ figure a {
     margin-bottom: 1rem;
 }
 
-.weather {
-    margin-bottom: 1rem;
+
+.forecast-output h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
+.weather {
+    margin: 1rem 2rem;
+    padding: 0;
+}
+.weather img {
+    display: block;
+}
+.weather p, .weather h2 {
+    margin: .5rem;
+}
+
+
 
 /*********** Footer ***************/
 

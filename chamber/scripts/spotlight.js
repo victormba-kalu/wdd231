@@ -58,8 +58,9 @@ const displaySpotlights = (members) => {
         website.style.color = '#36454F';
 
         level.textContent = levelText;
-        level.style.color = '#ccc';
+        level.style.color = '#B8860B';
         level.style.fontWeight = 'bold';
+        level.style.fontSize = '1rem';
 
         card.appendChild(name);
         card.appendChild(logo);
