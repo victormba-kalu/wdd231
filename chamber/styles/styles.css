@@ -252,6 +252,7 @@ figure {
     justify-content: center;
     box-shadow: 0 0 12px rgb(0, 0, 0, 0.4);
     border-radius: 3px;
+    margin-bottom: 1rem;
 }
 
 figure img {
@@ -283,6 +284,26 @@ figure a {
     transition: all 1s ease-in-out;
 }
 
+.view-all {
+    display: block;
+    text-align: center;
+    width: 25rem;
+    text-decoration: none;
+    margin: 0 auto 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border-radius: 3px;
+    color: #fff;
+    padding: .5rem;
+    box-shadow: 0 0 3px rgb(0, 0, 0, 0.8);
+    transition: all 1s ease-in-out;
+}
+
+.view-all:hover {
+    background-color: var(--primary-color);
+    color: #ccc;
+}
 .spotlight {
     margin-bottom: 1rem;
 }
