@@ -195,6 +195,7 @@ h1 {
 .hero-card img {
     width: 100%;
     height: auto;
+    display: block;
     
 }
 .join-us {
@@ -202,19 +203,19 @@ h1 {
 }
 
 .join-us p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     font-style: italic;
     color: var(--primary-color);
     text-align: center;
     padding: .5rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 
 .join-us a {
     background-color: var(--secondary-color);
     color: #fff;
-    box-shadow: 0 0 6px rgb(0, 0, 0, 0.8);
+    box-shadow: 0 0 7px rgb(0, 0, 0, 0.8);
     border: thin solid var(--secondary-color);
     text-decoration: none;
     border-radius: 6px;
@@ -226,7 +227,7 @@ h1 {
 
 .join-us a:hover, .figure a:hover {
     background-color: var(--primary-color);
-    color: #ccc;
+    color: #d9ff00e4;
 }
 
 
