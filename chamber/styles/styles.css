@@ -180,7 +180,7 @@ h1 {
 }
 
 .list section:nth-child(even) {
-        background-color: #8d7474;
+        background-color: #bbb;
 }
 
 .hero-card {
