@@ -5,6 +5,7 @@
     --text-color: #36454F;
 }
 
+
 /*************** Body *****************/
 body {
     background-color: var(--background-color);
@@ -13,6 +14,9 @@ body {
 }
 
 /*************** header****************/
+.spot-lights-container, .forecast-output, .current-events {
+    max-width: 100%;
+}
 header {
     display: grid;
     grid-template-columns: 60px auto 44px;
@@ -123,7 +127,7 @@ h1 {
 
 .grid, .spotlight, .weather, .current-events {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
     column-gap: .5rem;
     justify-content: center;
     
@@ -139,10 +143,13 @@ h1 {
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 12px rgb(0, 0, 0 , 0.4);
+    
+
 }
 
 .current-events img {
     display: block;
+    max-width: 100%;
 }
 
 .grid h2 {
@@ -161,6 +168,7 @@ h1 {
         box-shadow: 0 0 15px rgb(0, 0, 0 , 0.6);
         border: 2px solid var(--secondary-color);
         border-radius: 2px;
+        max-width: 100%;
 
 }
 
@@ -193,6 +201,8 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 1rem auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -239,6 +249,7 @@ h1 {
     text-align: center;
     font-size: 2rem;
     border-top: .5rem solid var(--primary-color);
+    max-width: 100%;
 }
 
 .border-events h2 {
@@ -261,9 +272,9 @@ h1 {
 }
 
 .figure img {
-    max-width: 400px;
+    max-width: 100%;
     height: 300px;
-    padding: 3px;    
+    margin-right: 3px;    
 }
   
 .figcaption {
@@ -289,12 +300,15 @@ h1 {
     transition: all 1s ease-in-out;
 }
 
+.spot-lights-container {
+    max-width: 100%;
+} 
 .view-all {
     display: block;
     text-align: center;
     width: 25rem;
     text-decoration: none;
-    margin: 0 auto 1rem;
+    margin: .5rem auto;
     font-size: 1.2rem;
     font-weight: bold;
     background-color: var(--secondary-color);
@@ -303,6 +317,8 @@ h1 {
     padding: .5rem;
     box-shadow: 0 0 3px rgb(0, 0, 0, 0.8);
     transition: all 1s ease-in-out;
+    max-width: 90%;
+
 }
 
 .view-all:hover {
@@ -320,7 +336,7 @@ h1 {
     padding: 0;
 }
 .weather {
-    margin: 1rem 2rem;
+    margin: 1rem 0;
     padding: 0;
 }
 .weather img {
