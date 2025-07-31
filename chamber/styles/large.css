@@ -48,6 +48,7 @@
         max-width: 90%;  
         box-shadow: 0 0 12px rgb(0, 0, 0, 0.4);
         border-radius: 20px;
+        margin: 1rem auto;
     }
 
     .hero-card img {
@@ -56,16 +57,29 @@
     
     .join-us {
         position: absolute;
-        bottom: 30px;
-        width: 50rem;
+        top: 25rem;
+        width: 100%;
+        margin-left: 3rem;
+    
+    
     }
 
     .join-us p {
         color: #d9ff00e4;
         margin: 0.4rem;
         font-size: 3rem;
-        line-height: 3rem;
+        line-height: 4rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        background-color: rgb(0, 0, 0, 0.2);
+
     }
+
+    .join-us a {
+        padding: .5rem 2rem;
+        font-size: 2rem;
+    }
+
     .spotlight, .current-events {
         margin: 1rem 5rem;
     }
