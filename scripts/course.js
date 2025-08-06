@@ -90,6 +90,8 @@ const allCoursesButton = document.querySelector('#allCoursesButton');
 const wddCoursesButton = document.querySelector('#wddCoursesButton');
 const cseCoursesButton = document.querySelector('#cseCoursesButton');
 const filterButtons = document.querySelectorAll('.filter-button');
+const courseDetails = document.querySelector("#course-details");
+
 
 // First, we add an eventlistener to the click of a button
 // Each button is a course like WDD or CSE 
@@ -131,7 +133,8 @@ function displayCourses(coursesToDisplay) {
 
     // for each course in the displayCourse array, we wanna do some stuff
     coursesToDisplay.forEach(course => {
-        const card = document.createElement('div');
+       
+        const card = document.createElement('button');
 
         // The card has two class names, the second name is dependent on if the class has been completed or not
         // The ternary operator serves us well in this regard
@@ -143,14 +146,48 @@ function displayCourses(coursesToDisplay) {
 
         coursesContainer.appendChild(card);
 
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+
         // For each iteration, we add the coures credits
         currentTotalCredits += course.credits;
+
+
+
+        
     });
 
     totalCreditsElement.textContent = currentTotalCredits;
 }
 
+function displayCourseDetails(course) {
+  // Clear any previous content in the dialog
+  courseDetails.innerHTML = '';
 
+  // Use a template literal to create all the HTML at once
+  const modalContent = `
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    <button id="closeModal">❌</button>
+  `;
+  
+  // Set the dialog's innerHTML
+  courseDetails.innerHTML = modalContent;
+  
+  // Now that the button exists in the DOM, find it and add the listener.
+  const closeModalButton = courseDetails.querySelector("#closeModal");
+  closeModalButton.addEventListener("click", () => {
+    courseDetails.close();
+  });
+  
+  // Show the modal
+  courseDetails.showModal();
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     handleFilterClick('all');
