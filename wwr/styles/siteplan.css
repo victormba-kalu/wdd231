@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #2874A6;
+    --secondary-color: #5DADE2; 
+    --accent-color: #2ECC71;
+    --body-text: #2C3E50;
+    --background-color: #F8F9FA;
+    --tertiary-color: #ECF0F1;
+}
+/*************** Header ************/
+header {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    margin-bottom: .75rem;
+}
+
+/************** Body **************/
+
+body {
+    background-color: var(--background-color);
+    font-family: "Inter", Verdana;
+    color: var(--body-text);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+/********* Main **********/
+main {
+    max-width: 95%;
+    margin: 0 auto;
+    box-shadow: 0 0 4px rgb(0, 0, 0, 0.4);
+    padding: .5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    padding: .2rem;
+    line-height: 1.5rem;
+    margin-top: .2rem;
+}
+
+h1 {
+    font-family: "Merriweather";
+    margin-bottom: .2rem;
+    margin-top: .3rem;
+    text-align: center;
+    border-bottom: 3px solid var(--body-text);
+    padding: .5rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: .3rem;
+    margin-bottom: 0;
+}
+
+.primary-color {
+    color: var(--primary-color)
+}
+
+.secondary-color {
+    color: var(--secondary-color)
+}
+
+.accent-color {
+    color: var(--accent-color)
+}
+
+.offwhite-gray {
+    color: var(--background-color)
+}
+
+.charcoal {
+    color: var(--body-text);
+}
+
+.blue-gray {
+    color: var(--tertiary-color);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+span.site-name {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.wireframe-container {
+    background-color: var(--tertiary-color);
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+}
+
+.wireframe-container h2, .wireframe-container p {
+    text-align: center;
+}
+
+.wireframe-container p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+.wireframe {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    max-width: 93%;
+    margin: 0 auto;
+    
+    
+}
+
+.wireframe img {
+    box-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+    display: block;
+}
+
+/************** Footer **************/
+footer {
+    text-align: center;
+    background-color: var(--body-text);
+    color: var(--background-color);
+    margin-top: .5rem;
+}
