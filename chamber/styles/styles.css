@@ -507,12 +507,23 @@ form select {
     width: 250px;
 }
 
-form textarea {
-    font-size: 1.5rem;
+ 
+textarea[name="organizationDescription"] {
+    display: block;
     margin-top: .3rem;
-    padding: 1rem;
+    width: 100%; 
+    max-width: 600px; 
+    box-sizing: border-box;
+    padding: 1rem; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    height: auto; 
+    min-height: 150px; 
+    resize: vertical; 
 }
-  
+
 form input:required {border-left-color: #2ECC71;}
 form input:focus {border-left-color: black; outline:none;}
 form input:required:valid{border-left-color: var(--text-color);}
