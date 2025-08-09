@@ -84,6 +84,31 @@
         margin: 1rem 5rem;
     }
 
+    /***************** Join Us *************/
+    .join-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    form {
+        margin: 2rem 7%;
+        
+    }
+
+    form label {
+        font-size: 2rem;
+    }
+
+    form input[type=text],
+    form input[type=tel],
+    form input[type=date],
+    form input[type=email],
+    form select {
+        margin: .5rem 0 1.5rem 0;
+        padding: 1rem;
+        width: 500px;
+    }
     footer {
         font-size: 1rem;
     }
