@@ -51,6 +51,7 @@ h1 {
 h2 {
     margin-top: 2rem;
     margin-bottom: 0;
+    text-align: center;
 }
 
 h3 {
@@ -71,16 +72,26 @@ h3 {
 }
 
 .offwhite-gray {
-    color: var(--background-color)
+    color: var(--background-color);
+    
+}
+
+.blue-gray, .offwhite-gray {
+    color: var(--tertiary-color);
+}
+
+.blue-gray, .offwhite-gray {
+    background-color: var(--body-text);
+    border: none;
+    border-radius: 5px;
+    padding-left: .3rem;
 }
 
 .charcoal {
     color: var(--body-text);
 }
 
-.blue-gray {
-    color: var(--tertiary-color);
-}
+
 
 .bold {
     font-weight: bold;
