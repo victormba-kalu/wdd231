@@ -41,4 +41,19 @@
         border: none;
     }
 
+    #allplaces div {
+    grid-template-areas: 
+    "name"
+    "photograph description"
+    "photograph address"
+    "learnmore"
+    ;
+
+    #allplaces div img {
+        width: 300px;
+        border: 4px solid black;
+    }
+}
+
+
 }

@@ -6,7 +6,7 @@ export const places = [
     "cost": {
       "entrance_fee": "Varies by season or visitor type, typically less than ₦3,000"
     },
-    "photo_url": "https://visaliv.com/wp-content/uploads/2021/08/portharcourt-tourist-beach-1024x683.jpg"
+    "photo_url": "portharcourt-tourist-beach.webp"
   },
   {
     "name": "Port Harcourt Pleasure Park",
@@ -14,11 +14,11 @@ export const places = [
     "description": "A modern recreational park with attractions like a climbing tower, paddle boats, mini-golf, VR games, cinema, playgrounds, fitness circuits.",
     "cost": {
       "entrance_adult": "₦1,500",
-      "entrance_children": "₦350–₦500",
+      "entrance_children": "₦350-₦500",
       "parking_fee": "₦300",
       "rides_games": "additional fees apply"
     },
-    "photo_url": "https://goldgerry.com/wp-content/uploads/2021/05/pleasure-park-port-harcourt-1024x683.jpg"
+    "photo_url": "pleasure-park-port-harcourt.webp"
   },
   {
     "name": "Isaac Boro Park",
@@ -27,7 +27,7 @@ export const places = [
     "cost": {
       "entrance_fee": "Likely free or minimal"
     },
-    "photo_url": null
+    "photo_url": "Isaac Boro Park_PortHarcourt.webp"
   },
   {
     "name": "Port Harcourt Zoo",
@@ -36,25 +36,16 @@ export const places = [
     "cost": {
       "entrance_fee": "Not specified"
     },
-    "photo_url": null
+    "photo_url": "Port Harcourt Zoo.webp"
   },
   {
     "name": "Bonny River Cruise",
     "address": "Boat departure from Bille Jetty, Port Harcourt, Rivers State, Nigeria",
     "description": "A riverboat ride from Port Harcourt to Bonny Island—scenic and relaxing way to explore waterways.",
     "cost": {
-      "boat_fare": "₦1,500–₦3,000"
+      "boat_fare": "₦1,500-₦3,000"
     },
-    "photo_url": null
-  },
-  {
-    "name": "Rivers State Cultural Centre",
-    "address": "Q25F+H9R, Bonny St, Port Harcourt, 500101, Rivers State, Nigeria",
-    "description": "Cultural venue offering performances, exhibitions, and conference facilities—affordable cultural immersion.",
-    "cost": {
-      "entrance_fee": "Not specified—described as budget-friendly"
-    },
-    "photo_url": null
+    "photo_url": "Bonny River Cruise.webp"
   },
   {
     "name": "National Museum of Port Harcourt",
@@ -63,16 +54,7 @@ export const places = [
     "cost": {
       "entrance_fee": "Approx. ₦400–₦500"
     },
-    "photo_url": null
-  },
-  {
-    "name": "Boli Street (Street Food – Boli & Fish)",
-    "address": "Opposite St Louis Catholic Church, Port Harcourt, Rivers State, Nigeria",
-    "description": "Street-food destination famed for roasted plantain (bole) and grilled fish—local culinary must-try.",
-    "cost": {
-      "food_price": "Plantain from ₦300, fish ₦600–₦700 per piece"
-    },
-    "photo_url": null
+    "photo_url": "National Museum of Port Harcourt.webp"
   },
   {
     "name": "Carniriv (Carnival)",
@@ -81,7 +63,7 @@ export const places = [
     "cost": {
       "entry_fee": "Not specified—varies by event"
     },
-    "photo_url": null
+    "photo_url": "carniriv_portharcourt_canival.webp"
   },
   {
     "name": "Bole Festival",
@@ -90,6 +72,6 @@ export const places = [
     "cost": {
       "entry_fee": "Not specified—likely low or free"
     },
-    "photo_url": null
+    "photo_url": "bole_festival_portharcourt.webp"
   }
 ]
