@@ -1,26 +1,36 @@
 [
   {
     "id": "prov1",
-    "name": "Dr. Aminu Bello",
+    "name": "Dr. Victor Mba",
     "specialty": "General Practice",
     "location": "Port Harcourt, Rivers State",
-    "phone": "+2348031234567",
-    "email": "aminu.bello@example.com",
-    "description": "Dr. Bello is a compassionate general practitioner with over 15 years of experience, dedicated to providing comprehensive family healthcare.",
-    "imageUrl": "https://placehold.co/100x100/2874A6/F8F9FA?text=AB"
+    "phone": "+2349074956503",
+    "email": "mbavictorkalu@gmail.com",
+    "description": "Dr. Mba is a compassionate general practitioner with over 15 years of experience, dedicated to providing comprehensive family healthcare.",
+    "imageUrl": "images/Dr.Mba.webp"
   },
   {
     "id": "prov2",
-    "name": "Dr. Ngozi Okoro",
+    "name": "Dr. Cece A.",
     "specialty": "Pediatrics",
     "location": "Port Harcourt, Rivers State",
     "phone": "+2348022345678",
-    "email": "ngozi.okoro@example.com",
-    "description": "Dr. Okoro specializes in pediatric care, focusing on child development, vaccinations, and common childhood illnesses.",
-    "imageUrl": "https://placehold.co/100x100/5DADE2/2C3E50?text=NO"
+    "email": "cecil.adikisiamaka@example.com",
+    "description": "Dr. Cecil specializes in pediatric care, focusing on child development, vaccinations, and common childhood illnesses.",
+    "imageUrl": "images/Dr.Cece1.webp"
   },
   {
     "id": "prov3",
+    "name": "Dr. J. Okafor",
+    "specialty": "Obstetrics/Gynecology",
+    "location": "Port Harcourt, Rivers State",
+    "phone": "+2348055678901",
+    "email": "chinedu.okafor@example.com",
+    "description": "Dr. Okafor offers comprehensive women's health services, including prenatal care, reproductive health, and gynecological surgery.",
+    "imageUrl": "images/Dr.John.webp"
+  },
+  {
+    "id": "prov4",
     "name": "Prof. Emeka Eze",
     "specialty": "Cardiology",
     "location": "Port Harcourt, Rivers State",
@@ -30,7 +40,7 @@
     "imageUrl": "https://placehold.co/100x100/2ECC71/2C3E50?text=EE"
   },
   {
-    "id": "prov4",
+    "id": "prov5",
     "name": "Dr. Fatima Aliyu",
     "specialty": "Dermatology",
     "location": "Port Harcourt, Rivers State",
@@ -39,16 +49,7 @@
     "description": "Dr. Aliyu provides expert dermatological services, addressing skin conditions, cosmetic concerns, and skin cancer screenings.",
     "imageUrl": "https://placehold.co/100x100/2C3E50/F8F9FA?text=FA"
   },
-  {
-    "id": "prov5",
-    "name": "Dr. Chinedu Okafor",
-    "specialty": "Obstetrics/Gynecology",
-    "location": "Port Harcourt, Rivers State",
-    "phone": "+2348055678901",
-    "email": "chinedu.okafor@example.com",
-    "description": "Dr. Okafor offers comprehensive women's health services, including prenatal care, reproductive health, and gynecological surgery.",
-    "imageUrl": "https://placehold.co/100x100/F8F9FA/2C3E50?text=CO"
-  },
+  
   {
     "id": "prov6",
     "name": "Dr. Ifeoma Nwachukwu",
