@@ -3,8 +3,8 @@ const navBar = document.querySelector('#nav-bar');
 const navLinks = navBar.querySelectorAll('ul li a');
 
 navButton.addEventListener('click', () => {
-    navButton.classList.toggle('open'); 
-    navBar.classList.toggle('open');
+    navButton.classList.toggle('show'); 
+    navBar.classList.toggle('show');
 });
 
 document.addEventListener('DOMContentLoaded', () => {

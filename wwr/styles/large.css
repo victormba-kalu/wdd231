@@ -1,7 +1,8 @@
 /* CSS for Home, Services, and Connect With Us pages on Large Screens */
 @media only screen and (min-width: 50.01rem) {
     header {
-        padding: 1rem 4rem;
+        grid-template-columns: 90px auto;
+        column-gap: 2rem;
     }
 
     header img {
@@ -12,6 +13,12 @@
         font-size: 1.8rem;
     }
 
+    .hamburger {
+        display: none;
+    }
+    .navigation {
+        display: block;
+    }
     .navigation ul {
         gap: 1.5rem;
     }
@@ -242,5 +249,86 @@
 
     .faq-item p {
         font-size: 1rem;
+    }
+
+    /* Form Action Page Specific Adjustments for Large Screens */
+    .submission-details {
+        padding: 3rem;
+    }
+
+    .submission-details h2 {
+        font-size: 2.5rem;
+    }
+
+    .submitted-list {
+        padding: 0 2rem;
+    }
+
+    .submitted-list li {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .provider-search-filter {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem 3rem;
+    }
+
+    .provider-search-filter input[type="text"],
+    .provider-search-filter select {
+        width: 300px;
+        max-width: 40%;
+        padding: 0.8rem;
+        font-size: 1.1rem;
+    }
+
+    .provider-cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        padding: 0 3rem;
+    }
+
+    .provider-card {
+        padding: 2.5rem;
+    }
+
+    .provider-card img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .provider-card h3 {
+        font-size: 1.9rem;
+    }
+
+    .provider-card p {
+        font-size: 1.05rem;
+    }
+
+    .provider-card .contact-btn {
+        padding: 0.8rem 1.6rem;
+        font-size: 1.1rem;
+    }
+
+    .modal-content {
+        max-width: 800px;
+        padding: 3rem;
+    }
+
+    #modal-provider-name {
+        font-size: 2.5rem;
+    }
+
+    #modal-provider-specialty,
+    #modal-provider-location,
+    #modal-provider-contact {
+        font-size: 1.25rem;
+    }
+
+    #modal-provider-description {
+        font-size: 1.1rem;
     }
 }

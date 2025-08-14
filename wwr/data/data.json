@@ -1,0 +1,152 @@
+[
+  {
+    "id": "prov1",
+    "name": "Dr. Aminu Bello",
+    "specialty": "General Practice",
+    "location": "Port Harcourt, Rivers State",
+    "phone": "+2348031234567",
+    "email": "aminu.bello@example.com",
+    "description": "Dr. Bello is a compassionate general practitioner with over 15 years of experience, dedicated to providing comprehensive family healthcare.",
+    "imageUrl": "https://placehold.co/100x100/2874A6/F8F9FA?text=AB"
+  },
+  {
+    "id": "prov2",
+    "name": "Dr. Ngozi Okoro",
+    "specialty": "Pediatrics",
+    "location": "Port Harcourt, Rivers State",
+    "phone": "+2348022345678",
+    "email": "ngozi.okoro@example.com",
+    "description": "Dr. Okoro specializes in pediatric care, focusing on child development, vaccinations, and common childhood illnesses.",
+    "imageUrl": "https://placehold.co/100x100/5DADE2/2C3E50?text=NO"
+  },
+  {
+    "id": "prov3",
+    "name": "Prof. Emeka Eze",
+    "specialty": "Cardiology",
+    "location": "Port Harcourt, Rivers State",
+    "phone": "+2348073456789",
+    "email": "emeka.eze@example.com",
+    "description": "Prof. Eze is a leading cardiologist renowned for his expertise in heart disease diagnosis and treatment, with a focus on preventive care.",
+    "imageUrl": "https://placehold.co/100x100/2ECC71/2C3E50?text=EE"
+  },
+  {
+    "id": "prov4",
+    "name": "Dr. Fatima Aliyu",
+    "specialty": "Dermatology",
+    "location": "Port Harcourt, Rivers State",
+    "phone": "+2348064567890",
+    "email": "fatima.aliyu@example.com",
+    "description": "Dr. Aliyu provides expert dermatological services, addressing skin conditions, cosmetic concerns, and skin cancer screenings.",
+    "imageUrl": "https://placehold.co/100x100/2C3E50/F8F9FA?text=FA"
+  },
+  {
+    "id": "prov5",
+    "name": "Dr. Chinedu Okafor",
+    "specialty": "Obstetrics/Gynecology",
+    "location": "Port Harcourt, Rivers State",
+    "phone": "+2348055678901",
+    "email": "chinedu.okafor@example.com",
+    "description": "Dr. Okafor offers comprehensive women's health services, including prenatal care, reproductive health, and gynecological surgery.",
+    "imageUrl": "https://placehold.co/100x100/F8F9FA/2C3E50?text=CO"
+  },
+  {
+    "id": "prov6",
+    "name": "Dr. Ifeoma Nwachukwu",
+    "specialty": "General Practice",
+    "location": "Diobu, Port Harcourt",
+    "phone": "+2348046789012",
+    "email": "ifeoma.nwachukwu@example.com",
+    "description": "A dedicated GP known for her patient-centered approach and commitment to holistic health.",
+    "imageUrl": "https://placehold.co/100x100/5DADE2/F8F9FA?text=IN"
+  },
+  {
+    "id": "prov7",
+    "name": "Dr. Tunde Adebayo",
+    "specialty": "Surgery",
+    "location": "Trans Amadi, Port Harcourt",
+    "phone": "+2348097890123",
+    "email": "tunde.adebayo@example.com",
+    "description": "Dr. Adebayo is a highly skilled surgeon with expertise in general and laparoscopic procedures.",
+    "imageUrl": "https://placehold.co/100x100/2ECC71/F8F9FA?text=TA"
+  },
+  {
+    "id": "prov8",
+    "name": "Dr. Aisha Suleiman",
+    "specialty": "Dentistry",
+    "location": "GRA Phase II, Port Harcourt",
+    "phone": "+2348088901234",
+    "email": "aisha.suleiman@example.com",
+    "description": "Dr. Suleiman provides comprehensive dental care, from routine check-ups to advanced restorative procedures, ensuring healthy smiles.",
+    "imageUrl": "https://placehold.co/100x100/2874A6/2C3E50?text=AS"
+  },
+  {
+    "id": "prov9",
+    "name": "Dr. Joseph Idowu",
+    "specialty": "Ophthalmology",
+    "location": "Elelenwo, Port Harcourt",
+    "phone": "+2348019012345",
+    "email": "joseph.idowu@example.com",
+    "description": "Dr. Idowu is an ophthalmologist specializing in eye health, vision correction, and treatment of eye diseases.",
+    "imageUrl": "https://placehold.co/100x100/F8F9FA/5DADE2?text=JI"
+  },
+  {
+    "id": "prov10",
+    "name": "Dr. Chioma Eke",
+    "specialty": "Pediatrics",
+    "location": "Rumuola, Port Harcourt",
+    "phone": "+2348030123456",
+    "email": "chioma.eke@example.com",
+    "description": "A warm and friendly pediatrician, Dr. Eke is committed to the health and well-being of her young patients.",
+    "imageUrl": "https://placehold.co/100x100/2C3E50/ECF0F1?text=CE"
+  },
+  {
+    "id": "prov11",
+    "name": "Dr. David Obi",
+    "specialty": "General Practice",
+    "location": "Rumuigbo, Port Harcourt",
+    "phone": "+2348061122334",
+    "email": "david.obi@example.com",
+    "description": "Experienced GP offering primary care services with a focus on patient education and preventive medicine.",
+    "imageUrl": "https://placehold.co/100x100/5DADE2/2874A6?text=DO"
+  },
+  {
+    "id": "prov12",
+    "name": "Dr. Grace Ojo",
+    "specialty": "Cardiology",
+    "location": "New Layout, Port Harcourt",
+    "phone": "+2348072233445",
+    "email": "grace.ojo@example.com",
+    "description": "Cardiologist providing expert diagnosis and management for a wide range of cardiovascular conditions.",
+    "imageUrl": "https://placehold.co/100x100/2874A6/ECF0F1?text=GO"
+  },
+  {
+    "id": "prov13",
+    "name": "Dr. Kelechi Kalu",
+    "specialty": "Dermatology",
+    "location": "Woji, Port Harcourt",
+    "phone": "+2348013344556",
+    "email": "kelechi.kalu@example.com",
+    "description": "Specializing in skin health, Dr. Kalu offers modern treatments for acne, eczema, and other dermatological issues.",
+    "imageUrl": "https://placehold.co/100x100/ECF0F1/2874A6?text=KK"
+  },
+  {
+    "id": "prov14",
+    "name": "Dr. Samuel Effiong",
+    "specialty": "Surgery",
+    "location": "Township, Port Harcourt",
+    "phone": "+2348084455667",
+    "email": "samuel.effiong@example.com",
+    "description": "Dr. Effiong is a meticulous surgeon known for successful outcomes in various surgical procedures.",
+    "imageUrl": "https://placehold.co/100x100/2ECC71/5DADE2?text=SE"
+  },
+  {
+    "id": "prov15",
+    "name": "Dr. Brenda Uche",
+    "specialty": "Obstetrics/Gynecology",
+    "location": "Rumukwurushi, Port Harcourt",
+    "phone": "+2348055566778",
+    "email": "brenda.uche@example.com",
+    "description": "Compassionate OB/GYN providing comprehensive care for women through all stages of life, from adolescence to menopause.",
+    "imageUrl": "https://placehold.co/100x100/2C3E50/F8F9FA?text=BU"
+  }
+]

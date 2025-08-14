@@ -1,7 +1,10 @@
 /* CSS for Home, Services, and Connect With Us pages on Medium Screens */
 @media only screen and (min-width: 21rem) and (max-width: 50rem) {
     header {
-        padding: 1rem 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     header img {
@@ -17,25 +20,14 @@
     }
 
     .navigation {
-        position: static;
-        max-height: none;
-        width: auto;
-        background-color: transparent;
-        box-shadow: none;
-        padding: 0;
-        overflow: visible;
-        display: flex;
-        flex-grow: 1;
-        justify-content: flex-end;
-        align-items: center;
+        display: block;
     }
 
     .navigation ul {
         display: flex;
-        text-align: left;
-        flex-grow: 1;
-        justify-content: flex-end;
-        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
     }
 
     .navigation ul li {
@@ -45,6 +37,7 @@
     .navigation ul li a {
         padding: 0.5rem 1rem;
         border-radius: 0.25rem;
+        
     }
 
     .contact-us-btn {
@@ -201,5 +194,82 @@
 
     .faq-item {
         padding: 0.8rem 1.2rem;
+    }
+
+    /* Form Action Page Specific Adjustments for Medium Screens */
+    .submission-details {
+        padding: 2.5rem;
+    }
+
+    .submission-details h2 {
+        font-size: 2.2rem;
+    }
+
+    .submitted-list {
+        padding: 0 1rem;
+    }
+
+    .submitted-list li {
+        font-size: 1.1rem;
+    }
+
+    .provider-search-filter {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 1.5rem 2rem;
+    }
+
+    .provider-search-filter input[type="text"],
+    .provider-search-filter select {
+        width: 45%;
+        max-width: 350px;
+    }
+
+    .provider-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: 0 2rem;
+    }
+
+    .provider-card {
+        padding: 2rem;
+    }
+
+    .provider-card img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .provider-card h3 {
+        font-size: 1.7rem;
+    }
+
+    .provider-card p {
+        font-size: 1rem;
+    }
+
+    .provider-card .contact-btn {
+        padding: 0.7rem 1.4rem;
+        font-size: 1.05rem;
+    }
+
+    .modal-content {
+        max-width: 700px;
+        padding: 2.5rem;
+    }
+
+    #modal-provider-name {
+        font-size: 2.2rem;
+    }
+
+    #modal-provider-specialty,
+    #modal-provider-location,
+    #modal-provider-contact {
+        font-size: 1.2rem;
+    }
+
+    #modal-provider-description {
+        font-size: 1.05rem;
     }
 }
