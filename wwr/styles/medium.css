@@ -1,0 +1,131 @@
+/* CSS for Home and Services pages on Medium Screens */
+@media only screen and (min-width: 21rem) and (max-width: 50rem) {
+    header {
+        padding: 1rem 3rem;
+    }
+
+    header img {
+        max-width: 90px;
+    }
+
+    header span {
+        font-size: 1.5rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        position: static;
+        max-height: none;
+        width: auto;
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+        overflow: visible;
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .navigation ul {
+        display: flex;
+        text-align: left;
+        flex-grow: 1;
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+
+    .navigation ul li {
+        padding: 0;
+    }
+
+    .navigation ul li a {
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+    }
+
+    .contact-us-btn {
+        margin: 0 0 0 1.5rem;
+        width: auto;
+    }
+
+    .content-decks-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .content-deck {
+        flex-direction: row;
+        flex-basis: calc(50% - 0.75rem);
+        max-width: calc(50% - 0.75rem);
+        text-align: left;
+        padding-bottom: 1rem;
+    }
+
+    .deck-image {
+        flex-basis: 40%;
+        max-width: 40%;
+        min-width: 150px;
+        aspect-ratio: 4/3;
+        border-radius: 0.75rem 0 0 0.75rem;
+    }
+
+    .deck-text {
+        flex-basis: 60%;
+        padding: 1rem 1.5rem 0;
+    }
+
+    .deck-text h2 {
+        font-size: 1.4rem;
+    }
+
+    .deck-text p {
+        font-size: 0.9rem;
+    }
+
+    .service-content-wrapper {
+        flex-direction: row;
+        text-align: left;
+        align-items: flex-start;
+        gap: 2rem;
+        padding: 1.5rem;
+    }
+
+    .service-section.alt-bg .service-content-wrapper {
+        flex-direction: row-reverse;
+    }
+
+    .service-image {
+        flex-basis: 40%;
+        max-width: 40%;
+        min-width: 250px;
+        border-radius: 0.5rem;
+    }
+
+    .service-text {
+        flex-basis: 60%;
+        padding: 0;
+    }
+
+    .service-text h2 {
+        font-size: 2rem;
+    }
+
+    .service-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .service-text p {
+        font-size: 1rem;
+    }
+
+    .service-text ul {
+        padding-left: 1.2rem;
+    }
+}

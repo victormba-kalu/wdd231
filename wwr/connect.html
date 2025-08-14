@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect With Us - CeceConnect</title>
+    <meta name="author" content="Victor Mba">
+    <meta name="description" content="Connect with CeceConnect, learn about our mission, and find answers to your questions.">
+    <meta property="og:title" content="CeceConnect - Connect With Us">
+    <meta property="og:description" content="Reach out to CeceConnect for inquiries, partnerships, or to learn more about our mission.">
+    <meta property="og:image" content="https://victormba-kalu.github.io/wdd231/wwr/images/business-logo.png">
+    <meta property="og:url" content="https://victormba-kalu.github.io/wdd231/wwr/connect.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/business-logo.webp" alt="site logo" width="100" height="100">
+        <span>PortHarcourt City Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="current"><a href="connect.html">Connect With Us</a></li>
+        </ul>
+        <a href="connect.html#contact-form" class="contact-us-btn">Contact Us</a>
+    </nav>
+
+    <main class="connect-main">
+        <section class="page-hero">
+            <h1>Connect With CeceConnect</h1>
+            <p>We're here to listen, collaborate, and help. Reach out to us for any inquiries, partnerships, or support.</p>
+        </section>
+
+        <section class="contact-info-section">
+            <div class="contact-details">
+                <h2>Get in Touch</h2>
+                <p>We value your feedback and inquiries. Feel free to contact us through the following channels:</p>
+                <p><strong>Email:</strong> <a href="mailto:info@cececonnect.org">info@cececonnect.org</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+2348001234567">+234 800 123 4567</a></p>
+                <p><strong>Address:</strong> 123 Health Bridge, Port Harcourt, Rivers State, Nigeria</p>
+                
+                <div class="social-links">
+                    <h3>Follow Us:</h3>
+                    <a href="#" aria-label="Facebook"><img src="https://placehold.co/40x40/2874A6/F8F9FA?text=FB" alt="Facebook icon" loading="lazy"></a>
+                    <a href="#" aria-label="LinkedIn"><img src="https://placehold.co/40x40/2874A6/F8F9FA?text=LI" alt="LinkedIn icon" loading="lazy"></a>
+                    <a href="#" aria-label="Twitter"><img src="https://placehold.co/40x40/2874A6/F8F9FA?text=TW" alt="Twitter icon" loading="lazy"></a>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form" action="form-action.html" method="get">
+                <h2>Send Us a Message</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="user_email" required>
+
+                <label for="phone">Phone (Optional):</label>
+                <input type="tel" id="phone" name="user_phone">
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="user_subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="user_message" rows="6" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+
+        <section class="our-story-section alt-bg">
+            <div class="story-content-wrapper">
+                <img src="https://placehold.co/600x400/2ECC71/2C3E50?text=Our+Story" 
+                     alt="Diverse team collaborating, symbolizing CeceConnect's mission" 
+                     loading="lazy" class="story-image">
+                <div class="story-text">
+                    <h2>Our Story: A Vision Born from Need</h2>
+                    <p>CeceConnect was founded with a deep understanding of the healthcare disparities prevalent in our local communities. Witnessing firsthand the challenges individuals faced in accessing vital medical services—from long distances to limited specialist availability—our founders were driven by a singular mission: to bridge these gaps with compassionate, technology-driven solutions.</p>
+                    <p>What started as a shared passion among a group of dedicated individuals has grown into a robust platform, committed to transforming healthcare accessibility. Every feature, every partnership, and every outreach effort is designed to ensure that quality health outcomes are within reach for everyone, regardless of their location or circumstance.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What is CeceConnect's primary mission?</h3>
+                <p>Our primary mission is to bridge healthcare accessibility gaps in our locale by connecting individuals with reliable medical information and trusted healthcare providers, empowering them to achieve better health outcomes.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I find a doctor using your platform?</h3>
+                <p>You can use our seamless provider directory, which offers advanced search filters by specialty, location, and more. Simply visit our Services page to get started with browsing providers.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is the health information on CeceConnect reliable?</h3>
+                <p>Yes, we are committed to providing trustworthy and easy-to-understand health information. Our resources are curated from credible sources to help you make informed decisions about your well-being.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can my clinic partner with CeceConnect?</h3>
+                <p>We welcome collaborations with healthcare providers and organizations. Please fill out the contact form above, selecting "Partnership Inquiry" as your subject, and our team will get in touch with you.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is there a fee to use CeceConnect's services?</h3>
+                <p>Basic access to our provider directory and health resources is free for individuals. For healthcare providers and organizations, we offer various membership levels with different benefits and associated fees. Please see our Services page for details.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="address">
+            <p>&copy; <span id="currentyear"></span> &#127796; Chamber of Commerce | Victor Mba &#127796; Rivers, Nigeria</p>
+            <p class="modified-last">Last Modification: <span id="lastmodified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -684,7 +684,7 @@ form #results {
 
 #allplaces div button {
     cursor: pointer;
-    margin: 1rem auto;
+    width: 50%;
 }
 
 #allplaces div .buttoncontainer {
@@ -692,6 +692,7 @@ form #results {
     margin: 0;
     text-align: center;
     grid-area: learnmore;
+    border: 1px solid black;
 }
 
 /*********** Footer ***************/

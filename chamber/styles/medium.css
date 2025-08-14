@@ -41,19 +41,21 @@
         border: none;
     }
 
-    #allplaces div {
-    grid-template-areas: 
-    "name"
-    "photograph description"
-    "photograph address"
-    "learnmore"
-    ;
+   #allplaces div {
+        display: grid;
+        grid-template-areas: 
+        "photograph name"
+        "photograph description"
+        "photograph address"
+        "learnmore learnmore"
+        ;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto auto auto;
+    }
 
     #allplaces div img {
         width: 300px;
-        border: 4px solid black;
     }
 }
 
 
-}
