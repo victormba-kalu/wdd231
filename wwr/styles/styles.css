@@ -266,7 +266,7 @@ footer {
     }
 }
 
-/* --- Services Page Specific Styling --- */
+/* CSS for Services Page */
 .services-main {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -376,6 +376,222 @@ footer {
 
 .service-text .cta-button {
     margin-top: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1;
+}
+
+/* CSS for Connect With Us Page */
+.connect-main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact-info-section {
+    display: flex;
+    flex-direction: column; /* Stack contact details and form vertically */
+    gap: 2rem;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-details,
+.contact-form {
+    background-color: #FFFFFF;
+    border: 1px solid var(--light-blue-gray);
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-details h2,
+.contact-form h2 {
+    font-size: 1.8rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.contact-details p {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.contact-details a {
+    color: var(--primary-blue);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 1.5rem;
+}
+
+.social-links h3 {
+    font-size: 1.2rem;
+    color: var(--dark-charcoal);
+    margin-bottom: 0.75rem;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    transition: transform 0.2s;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-blue); /* Background for the placeholder images */
+    object-fit: cover;
+}
+
+.contact-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--dark-charcoal);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: calc(100% - 20px); /* Account for padding */
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--light-blue-gray);
+    border-radius: 0.25rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: var(--dark-charcoal);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: var(--secondary-blue);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(93, 173, 226, 0.2); /* Focus ring */
+}
+
+.contact-form .cta-button {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.our-story-section {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.our-story-section.alt-bg {
+    background-color: var(--light-blue-gray);
+}
+
+.story-content-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.story-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+}
+
+.story-text {
+    flex-grow: 1;
+}
+
+.story-text h2 {
+    font-size: 1.8rem;
+    color: var(--primary-blue);
+    margin-bottom: 0.75rem;
+}
+
+.story-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.faq-section {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: #FFFFFF;
+    border: 1px solid var(--light-blue-gray);
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.faq-section h2 {
+    font-size: 2rem;
+    color: var(--primary-blue);
+    margin-bottom: 1.5rem;
+}
+
+.faq-item {
+    background-color: var(--off-white);
+    border: 1px solid var(--light-blue-gray);
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    transition: background-color 0.2s;
+}
+
+.faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-item:hover {
+    background-color: var(--light-blue-gray);
+}
+
+.faq-item h3 {
+    font-size: 1.15rem;
+    color: var(--dark-charcoal);
+    margin-bottom: 0.5rem;
+    cursor: pointer; /* Implies expand/collapse functionality */
+}
+
+.faq-item p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--dark-charcoal);
+    margin-top: 0;
+    padding-left: 0.5rem;
 }
 
 body {

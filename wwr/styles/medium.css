@@ -1,4 +1,4 @@
-/* CSS for Home and Services pages on Medium Screens */
+/* CSS for Home, Services, and Connect With Us pages on Medium Screens */
 @media only screen and (min-width: 21rem) and (max-width: 50rem) {
     header {
         padding: 1rem 3rem;
@@ -127,5 +127,79 @@
 
     .service-text ul {
         padding-left: 1.2rem;
+    }
+
+    .contact-info-section {
+        flex-direction: row; /* Arrange contact details and form side-by-side */
+        flex-wrap: wrap; /* Allow wrapping if needed */
+        justify-content: center; /* Center items */
+        align-items: flex-start; /* Align items to the top */
+        gap: 2rem; /* Space between details and form */
+    }
+
+    .contact-details,
+    .contact-form {
+        flex-basis: calc(50% - 1rem); /* Each takes roughly half width, accounting for gap */
+        max-width: calc(50% - 1rem);
+        text-align: left; /* Align text within these sections to the left */
+        padding: 1.5rem; /* Adjust padding */
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align social links to the left */
+        margin-top: 1rem;
+    }
+
+    .social-links h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .social-links a {
+        margin: 0.25rem 0.5rem 0.25rem 0; /* Adjust margin for vertical stack, but horizontal for icons */
+    }
+
+    .our-story-section {
+        flex-direction: row; /* Arrange image and text side-by-side */
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .story-content-wrapper {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .story-image {
+        flex-basis: 40%;
+        max-width: 40%;
+        min-width: 250px;
+    }
+
+    .story-text {
+        flex-basis: 60%;
+    }
+
+    .story-text p {
+        font-size: 1rem;
+    }
+
+    .faq-section {
+        text-align: left; /* Align FAQ section content to the left */
+        padding: 1.5rem;
+    }
+    
+    .faq-section h2 {
+        text-align: center; /* Center the main FAQ heading */
+        font-size: 2.2rem;
+    }
+
+    .faq-item {
+        padding: 0.8rem 1.2rem;
     }
 }
