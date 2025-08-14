@@ -107,12 +107,12 @@ header span {
 
 .navigation ul li a:hover,
 .contact-us-btn:hover {
-    background-color: var(--secondary-blue);
+    background-color: var(--light-blue-gray);
     color: var(--dark-charcoal);
 }
 
 .navigation .current a {
-    background-color: var(--secondary-blue);
+    background-color: #a9b1b7;
     color: var(--dark-charcoal);
     font-weight: bold;
 }
@@ -242,6 +242,13 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     margin-top: auto;
+}
+
+footer a {
+    color: var(--off-white);
+    font-weight: bold;
+    font-style: italic;
+    
 }
 
 .address {
