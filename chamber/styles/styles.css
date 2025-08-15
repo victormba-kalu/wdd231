@@ -685,6 +685,7 @@ form #results {
     max-width: 100%;
     grid-area: photograph;
     border-radius: .5rem;
+    margin-left: 15px;
 }
 
 #allplaces div p {
