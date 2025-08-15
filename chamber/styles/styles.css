@@ -711,6 +711,7 @@ form #results {
 #allplaces div button:hover {
     background-color: var(--primary-color);
     color: #d9ff00e4;
+    padding-bottom: .2rem;
 }
 
 #allplaces div .buttoncontainer {
@@ -718,6 +719,7 @@ form #results {
     margin: 0;
     text-align: center;
     grid-area: learnmore;
+    padding-bottom: .2rem;
 }
 
 /*********** Footer ***************/

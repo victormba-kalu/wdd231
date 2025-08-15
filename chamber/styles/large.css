@@ -114,15 +114,16 @@
     }
     #allplaces {
         display: grid;
-         grid-template-areas: 
-        "photograph name"
+        grid-template-areas: 
+        "name name"
         "photograph description"
         "photograph address"
         "learnmore learnmore"
         ;
         grid-template-columns: 1fr 1fr;
-       
+        grid-template-rows: auto auto auto auto;
     }
+       
 
     #allplaces img {
         transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
