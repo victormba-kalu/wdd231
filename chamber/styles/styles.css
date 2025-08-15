@@ -663,7 +663,7 @@ form #results {
 #allplaces div {
     margin: 1rem 8px;
     border: 1px solid var(--primary-color);
-    border-radius: 8px;
+    border-radius: 15px;
     overflow: hidden;
 
     display: grid;
@@ -720,6 +720,8 @@ form #results {
     text-align: center;
     grid-area: learnmore;
     padding-bottom: .2rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
 }
 
 /*********** Footer ***************/
