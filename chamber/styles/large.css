@@ -109,10 +109,19 @@
         padding: 1rem;
         width: 500px;
     }
-
+    #allplaces div {
+        padding:.75rem;
+    }
     #allplaces {
         display: grid;
+         grid-template-areas: 
+        "photograph name"
+        "photograph description"
+        "photograph address"
+        "learnmore learnmore"
+        ;
         grid-template-columns: 1fr 1fr;
+       
     }
 
     #allplaces img {

@@ -42,6 +42,7 @@
     }
 
    #allplaces div {
+        padding: .5rem;
         display: grid;
         grid-template-areas: 
         "photograph name"

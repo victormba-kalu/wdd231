@@ -698,7 +698,19 @@ form #results {
 
 #allplaces div button {
     cursor: pointer;
-    width: 50%;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.03);
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+
+}
+#allplaces div button:hover {
+    background-color: var(--primary-color);
+    color: #d9ff00e4;
 }
 
 #allplaces div .buttoncontainer {
@@ -706,7 +718,6 @@ form #results {
     margin: 0;
     text-align: center;
     grid-area: learnmore;
-    border: 1px solid black;
 }
 
 /*********** Footer ***************/
